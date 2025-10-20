@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #111;
+    color: #f5f5f5;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a1a;
+    padding: 20px 60px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+    color: #e63946;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav a {
+    color: #f5f5f5;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #e63946;
+}
+
+.banner {
+    background: url('andando-de-skate-em-l-a.jpg') center/cover no-repeat;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-text {
+    background-color: rgba(0,0,0,0.6);
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.banner h1 {
+    font-size: 48px;
+    color: #fff;
+}
+
+.banner p {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.btn {
+    background-color: #e63946;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(230,57,70,0.4);
+}
+
+.btn:hover {
+    background-color: #ff5c5c;
+}
+
+.video-sec {
+    padding: 50px 20px;
+}
+
+.video-sec video {
+    width: 80%;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(230,57,70,0.3);
+}
+
+.produtos {
+    padding: 50px 80px;
+}
+
+.grade-produtos {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.produto {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    width: 280px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.produto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(230,57,70,0.4);
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.produto h3 {
+    margin: 15px 0 5px;
+}
+
+.produto p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.produto button {
+    background-color: #e63946;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.produto button:hover {
+    background-color: #ff5c5c;
+}
+
+.tabela-precos {
+    padding: 40px 20px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 15px;
+    border-bottom: 1px solid #333;
+}
+
+th {
+    background-color: #e63946;
+    color: #fff;
+    font-size: 18px;
+}
+
+td {
+    background-color: #1a1a1a;
+    color: #ccc;
+}
+
+footer {
+    background-color: #1a1a1a;
+    padding: 25px;
+    color: #999;
+    margin-top: 50px;
+}
